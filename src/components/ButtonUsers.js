@@ -1,7 +1,7 @@
 import React from "react";
 
-export const ButtonUsers = () => {
+export const ButtonUsers = (props) => {
     return (
-        <button>Show 5 users</button>
+        <button onClick={props.click}>Show random 5 users</button>
     )
 }
