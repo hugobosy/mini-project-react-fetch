@@ -7,6 +7,18 @@
 }
 
 .list-item {
-    padding: 20px;
     box-shadow: 0 0 20px 5px rgba(0,0,0,.1);
+}
+
+.user-photo {
+    width: 100%;
+}
+
+.block-item div {
+    padding: 20px 0;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+p:first-child {
+    font-weight: bold;
 }

@@ -2,10 +2,6 @@ import './App.css';
 import {ButtonUsers} from "./ButtonUsers";
 import {UsersList} from "./UsersList";
 import {useState} from "react";
-import {logDOM} from "@testing-library/react";
-
-
-const api = 'https://randomuser.me/api/?results=5';
 
 function App() {
 

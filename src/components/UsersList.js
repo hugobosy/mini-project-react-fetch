@@ -10,7 +10,7 @@ export const UsersList = (props) => {
                <div className="block-item">
                    <img src={user.picture.large} alt="user_photo" className="user-photo"/>
                    <div>
-                       <p><span className="name">{user.name.title}</span>&nbsp;<span
+                       <p style={user.gender === "male" ? {color: "green"} : {color: "red"}}><span className="name">{user.name.title}</span>&nbsp;<span
                            className="name">{user.name.first}</span>&nbsp;<span className="name">{user.name.last}</span>
                        </p>
                        <p>Email: <strong>{user.email}</strong></p>
