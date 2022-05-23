@@ -13,7 +13,7 @@ function App() {
 
 
     const handleClick = () => {
-        fetch('https://randomuser.me/api/?results=5')
+        fetch('https://randomuser.me/api/?results=6')
             .then(res => res.json())
             .then(data => {
                 setState(data.results)
