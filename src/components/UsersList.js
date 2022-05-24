@@ -2,7 +2,6 @@ import React from "react";
 import './UsersList.css';
 
 export const UsersList = (props) => {
-    console.log(props.state)
 
     const users = props.state.map(user => {
         return (
